@@ -8,6 +8,9 @@ import Flex from '../../img/chessboard-flex-img.png'
 import Grid from '../../img/chessboard-grid-img.png'
 import Survey from '../../img/survey-form-img.png'
 import Tribute from '../../img/tribute-page-img.png'
+import Cryptracker from '../../img/cryptracker-ss.png'
+import Stock from '../../img/stock-ss.png'
+import Journal from '../../img/journal-app-ss.png'
 // import {BrowserRouter as Link} from 'react-router-dom';
 
 
@@ -21,6 +24,42 @@ const Projects = () => {
             <img src={Logo} alt="" width="220"/>
         </section>
         <section className="p-projects-section">
+        <div className="p-projects-container">
+              <div className="p-projects">
+                <img src={Cryptracker} alt="" className="p-projects-img" />
+                <div className="p-projects-title-container">
+                  <h1 className='p-projects-titles'>Cryptracker</h1>
+                  <p>Cryptracker is a tracker of all the cryptocurrencies that a user owns.</p>
+                </div>
+                  <div className="p-projects-button-container">
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://crypto-tracker-ada97.web.app/')} >Demo</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/exceljake/cryptotracker')} >BE Code</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/Rojeenyus/crypto_tracker')} >FE Code</button>
+                  </div>
+              </div>
+              <div className="p-projects">
+              <img src={Stock} alt="" className="p-projects-img" />
+              <div className="p-projects-title-container">
+                  <h1 className='p-projects-titles'>Stock Trading App</h1>
+                  <p>A Stock Trading App which lets users buy and sell stocks.</p>
+                </div>
+                  <div className="p-projects-button-container">
+                    <button className='p-projects-btn' onClick={() => window.open( 'http://eluder-stock-trading.herokuapp.com/')} >Demo</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/RJAA-25/Stock-Trading-App')} >Code</button>
+                  </div>
+              </div>
+              <div className="p-projects">
+              <img src={Journal} alt="" className="p-projects-img" />
+              <div className="p-projects-title-container">
+                  <h1 className='p-projects-titles'>Journal App</h1>
+                  <p>A journal app which tracks your tasks.</p>
+                </div>
+                  <div className="p-projects-button-container">
+                    <button className='p-projects-btn' onClick={() => window.open( 'http://tinythoughts.herokuapp.com/')} >Demo</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/exceljake/journal-app')} >Code</button>
+                  </div>
+              </div>
+          </div>
           <div className="p-projects-container">
               <div className="p-projects">
                 <img src={Banking} alt="" className="p-projects-img" />
@@ -75,7 +114,7 @@ const Projects = () => {
                   <p>A chessboard built to explore more about flex</p>
                 </div>
                   <div className="p-projects-button-container">
-                    <button className='p-projects-btn' onClick={() => window.open( 'https://exceljake.github.io/chessboard-flex/index.html')} >Demo</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://exceljake.github.io/chessboard-flex/play.html')} >Demo</button>
                     <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/exceljake/exceljake.github.io/tree/main/chessboard-flex')} >Code</button>
                   </div>
               </div>
@@ -86,7 +125,7 @@ const Projects = () => {
                   <p>A chessboard built to explore more about grid</p>
                 </div>
                   <div className="p-projects-button-container">
-                    <button className='p-projects-btn' onClick={() => window.open( 'https://exceljake.github.io/chessboard-grid/index.html')} >Demo</button>
+                    <button className='p-projects-btn' onClick={() => window.open( 'https://exceljake.github.io/chessboard-grid/play.html')} >Demo</button>
                     <button className='p-projects-btn' onClick={() => window.open( 'https://github.com/exceljake/exceljake.github.io/tree/main/chessboard-grid')} >Code</button>
                   </div>
               </div>
