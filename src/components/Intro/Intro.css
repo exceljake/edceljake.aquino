@@ -44,12 +44,12 @@
 
 .i-title-wrapper {
     height: 100%;
-    animation: move 3s ease-in-out infinite alternate;
+    animation: move 5s ease-in-out infinite alternate;
 }
 
 @keyframes move {
     100% {
-        transform: translateY(-50px);
+        transform: translateY(-100px);
     }
 }
 

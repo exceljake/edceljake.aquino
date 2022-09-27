@@ -11,12 +11,13 @@ const Intro = () => {
                     <h1 className='i-name'>Edcel Jake Aquino</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Frontend Engineer</div>
-                            <div className="i-title-item">Freelancer</div>
+                            <div className="i-title-item">Full Stack Engineer</div>
+                            <div className="i-title-item">Front End Engineer</div>
+                            <div className="i-title-item">Back  End Engineer</div>
                         </div>
                     </div>
                     <div className="i-desc">
-                        A 20 year-old Software Engineer who focuses on Front End Technologies.
+                        A 20 year-old Software Engineer.
                     </div>
                 </div>
                 <svg
