@@ -78,3 +78,9 @@
 .p-projects-btn:hover {
     background-color: rgba(56, 56, 56, .9);
 }
+
+@media only screen and (max-width: 630px) {
+    .p-projects-container {
+        flex-direction: column;
+    }
+}
